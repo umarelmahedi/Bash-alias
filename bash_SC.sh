@@ -1,6 +1,5 @@
 export PATH="~/.composer/vendor/bin:$PATH"
 
-
 alias c="clear"
 
 alias desk="cd /Users/Umar/Desktop"
