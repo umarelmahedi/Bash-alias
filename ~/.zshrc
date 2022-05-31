@@ -1,0 +1,32 @@
+#Custom settings
+alias root="/."
+alias c="clear"
+alias back="cd .."
+alias desk="/Users/umar/Desktop"
+alias downloads="/Users/umar/Downloads"
+alias del="sudo rm -rf"
+alias list="ls -la"
+alias rename="sudo mv $2 $3"
+alias copy="sudo cp -R $4 $5"
+alias update="source ~/.zshrc"
+alias profile="sudo vim ~/.zshrc"
+#Apache settings
+alias host="/Library/WebServer/Documents/"
+alias startserver="sudo apachectl start"
+alias restartserver="sudo apachectl restart"
+alias serverstatus="apachectl configtese"
+#Mysql8 settings
+alias startmysql="sudo port load mysql8-server"
+alias stopmysql="sudo port unload mysql8-server"
+alias database="mysql -u root -p"
+#Phpmyadmin settings
+alias phpmyadmin="/Library/WebServer/Documents/phpMyAdmin"
+#Laravel settings
+alias art="php artisan"
+alias laravel="composer create-project laravel/laravel:^8.0 $6"
+alias migrate="php artisan migrate"
+alias migrate-back="php artisan migrate:rollback"
+alias make-all="php artisan make:model $7 -mc"
+alias provider="php artisan make:provider $8"
+alias generate="php artisan event:generate"
+alias run="php artisan serve"
