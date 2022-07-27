@@ -1,1 +1,3 @@
-# Alias for bash profile
+# bash profile
+
+> Alias for bash profile
